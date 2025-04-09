@@ -52,7 +52,7 @@ namespace CyberSecurityBot
                      ________
                     / _______\ 
                    | |      | |  
-                   | | LOC  | |   
+                   | | LOCK | |   
                    | |______| | 
                     \________/    
 
