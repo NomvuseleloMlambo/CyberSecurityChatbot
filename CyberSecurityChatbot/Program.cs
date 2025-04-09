@@ -162,7 +162,7 @@ namespace CyberSecurityBot
             foreach (char c in message)
             {
                 Console.Write(c);
-                Thread.Sleep(delay); // Delay between characters
+                Thread.Sleep(delay); 
             }
             Console.WriteLine(); 
         }
