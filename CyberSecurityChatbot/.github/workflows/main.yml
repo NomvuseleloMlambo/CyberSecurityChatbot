@@ -18,8 +18,8 @@ jobs:
       uses: microsoft/setup-msbuild@v1.3.1
 
     - name: Restore NuGet packages
-      run: nuget restore CyberSecurityBot.sln
+      run: nuget restore CyberSecuritychatbot.sln
 
     - name: Build solution
-      run: msbuild CyberSecurityBot.sln /p:Configuration=Release
+      run: msbuild CyberSecuritychatbot.sln /p:Configuration=Release
 
