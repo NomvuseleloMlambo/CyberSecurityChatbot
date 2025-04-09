@@ -164,7 +164,7 @@ namespace CyberSecurityBot
                 Console.Write(c);
                 Thread.Sleep(delay); // Delay between characters
             }
-            Console.WriteLine(); // New line after the message is typed
+            Console.WriteLine(); 
         }
     }
 }
