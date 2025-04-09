@@ -103,6 +103,7 @@ namespace CyberSecurityBot
                 GetResponse(userInput);
             }
         }
+        //response method
         static void GetResponse(string userInput)
         {
             userInput = userInput.ToLower();
