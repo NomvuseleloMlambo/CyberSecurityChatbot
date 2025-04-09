@@ -61,7 +61,7 @@ namespace CyberSecurityBot
 ");
             Console.ResetColor();
         }
-
+        //greet user method
         static string GreetUser()
         {
             Console.WriteLine("\nWhat's your name?");
