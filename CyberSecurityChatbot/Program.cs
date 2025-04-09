@@ -156,6 +156,7 @@ namespace CyberSecurityBot
                 Console.ResetColor();
             }
         }
+        // typing feature method
         static void TypeResponse(string message, int delay = 25)
         {
             foreach (char c in message)
