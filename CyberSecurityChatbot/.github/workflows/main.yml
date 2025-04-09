@@ -1,0 +1,25 @@
+name: .NET Framework Build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Setup MSBuild path
+      uses: microsoft/setup-msbuild@v1.3.1
+
+    - name: Restore NuGet packages
+      run: nuget restore CyberSecurityBot.sln
+
+    - name: Build solution
+      run: msbuild CyberSecurityBot.sln /p:Configuration=Release
+
